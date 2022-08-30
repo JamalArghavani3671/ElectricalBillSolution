@@ -8,7 +8,7 @@ namespace DataAccess.EfCore
         public ElectricalBillAPIContext CreateDbContext(string[] args)
         {
             var connectionString = "Data Source=ARGHAVAN;Initial Catalog=ElectricalBill;" +
-                   "Persist Security Info=True;User ID=Arghavani;Password=0830055762";
+                   "Persist Security Info=True;User ID=Arghavani;Password=11111";
 
             var optionsBuilder = new DbContextOptionsBuilder<ElectricalBillAPIContext>();
             optionsBuilder.UseSqlServer(connectionString);

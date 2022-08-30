@@ -11,7 +11,7 @@ namespace WebAPI.Services
         public static IServiceCollection RegisterPhoneBookApiServices(this IServiceCollection services)
         {
             var connectionString = "Data Source=ARGHAVAN;Initial Catalog=ElectricalBill;" +
-                   "Persist Security Info=True;User ID=Arghavani;Password=0830055762";
+                   "Persist Security Info=True;User ID=Arghavani;Password=11111";
 
             services.AddDbContext<ElectricalBillAPIContext>(options =>
             {
